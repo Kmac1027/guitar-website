@@ -1,10 +1,10 @@
 
 function likeGuitar(){
     var like = prompt('Would you Like to Learn to Play Guitar?');
-    if (like === 'yes'){
+    if (like == 'yes'){
         alert('WELCOME! This is the right place for you!');
     } 
-    else if (like === 'no'){
+    else if (like == 'no'){
         alert('Maybe this isnt the Website for you')
     } 
     else{
